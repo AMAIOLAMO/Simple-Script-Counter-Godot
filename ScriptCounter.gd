@@ -1,6 +1,6 @@
 class_name ScriptCounter extends Object
 
-static func count_recursive(path: String, deep: int = 8, typeHint: String = "") -> int:
+static func count_recursive(path: String, deep: int = 8) -> int:
 	var directory := Directory.new()
 	directory.open(path)
 	
